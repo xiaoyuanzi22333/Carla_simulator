@@ -417,7 +417,7 @@ class DualControl(object):
 
                     print(time.time() - self.timer)
                     
-                    root = './output_test_001'
+                    root = './output_test_left'
                     if not os.path.exists(root):
                         os.mkdir(root)
                         
